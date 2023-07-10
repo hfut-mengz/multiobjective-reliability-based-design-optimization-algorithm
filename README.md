@@ -3,8 +3,11 @@ Multiobjective reliability-based design optimization (RBDO) is a research area, 
 
 The descriptions of the two examples are as follows:
 1. Multiobjective RBDO for spring.
-The multiobjective RBDO of spiral squeezing spring is selected as the first example, which is modified from (Kannan and Kramer 1994; Kumar et al. 2021a). The multiobjective RBDO of spring can be deemed as a real mechanical application example with integer, discrete, and continuous variables. The schematic view is shown in Fig. 4. There are two design objectives and eight constraints. The first objective is minimizing volume of the steel wire, while the second objective is minimizing the shear stress. The integer variable   and the discrete variable   are considered as the deterministic design variables, while the continuous variable   is selected as the random variable that obeys the normal distribution with standard deviation 0.005. 
+
+The multiobjective RBDO of spiral squeezing spring is selected as the first example, which is modified from (Kannan and Kramer 1994; Kumar et al. 2021a). The multiobjective RBDO of spring can be deemed as a real mechanical application example with integer, discrete, and continuous variables. The schematic view is shown in Fig. 4. There are two design objectives and eight constraints. The first objective is minimizing volume of the steel wire, while the second objective is minimizing the shear stress. The integer variable   and the discrete variable   are considered as the deterministic design variables, while the continuous variable   is selected as the random variable that obeys the normal distribution with standard deviation 0.005.
+
 2. Multiobjective RBDO for simply supported I-beam.
+
 A simply supported I-beam is used as the second examples, which is widely tested by different researches (Huang et al. 2006; Kumar et al. 2021a). The schematic diagram is plotted in Fig. 4. There are two loads, i.e. P=600 kN and Q=50 kN. The Young’s modulus E is 2×104 kN/cm2. The length L is 200 cm. The allowable bending stress σb is 16 kN/cm2. Two design objectives are minimizations of cross-sectional area and vertical deflection. The stress constraint is utilized. The geometric dimensions are selected as the design and random variables, which are assumed following the normal distribution with standard deviation 0.005.
 
 The details of running the program are as follows:
